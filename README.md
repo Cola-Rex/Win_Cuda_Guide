@@ -59,7 +59,6 @@ If the official website installation fails due to network issues, you can direct
 - Find the three packages corresponding to your local environment: torch, torchvision, torchaudio.
 - Use `ctrl+F` and search for your CUDA version number (e.g., for version 11.8, enter `cu118`) to quickly jump to the corresponding download links. The numbers in `cpxx` represent your Python version, e.g., if your Python version is 3.11, choose the links containing `cp311`.
 ![PyTorch .whl Files](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/8546ae79-e8af-4190-a20b-d8937e091aac)
-...
 - After downloading the three files, use the terminal's pip command to install:
   ```bash
   pip install torch-2.0.0+cu118-cp311-cp311-win_amd64.whl
