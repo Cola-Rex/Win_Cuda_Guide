@@ -1,5 +1,7 @@
 # Win_Cuda_Guide
 
+ English | [简体中文](README_CN.md)
+
 This project offers a concise, step-by-step guide to simplify the process of installing CUDA on Windows.
 
 As AI is currently one of the hottest topics in IT, you might want to try it on your own computer. AI training relies heavily on CUDA, so the first step is to set up the local environment. This project will guide you through configuring CUDA on Windows step by step.
