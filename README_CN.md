@@ -34,7 +34,7 @@
 - 访问 cuDNN 官方地址：[NVIDIA cuDNN Downloads](https://developer.nvidia.com/rdp/cudnn-download)。
 - 下载对应的 CUDA 版本，例如 CUDA 版本是 12.2，请选择 12.x 版本。
  ![4](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/251ebcd9-9f3b-4590-9069-6bc9ff02792c)
-- 解压下载的文件并重命名为 'cudnn'，将文件夹复制到 CUDA 的安装目录下。
+- 解压下载的文件并重命名为 `cudnn`，将文件夹复制到 CUDA 的安装目录下。
 
 #### 3.2 配置环境变量
 - 打开 Path，添加以下两行：
