@@ -15,7 +15,7 @@
 
 #### 2.1 下载 CUDA
 - 打开 CUDA 下载地址：[NVIDIA CUDA Downloads](https://developer.nvidia.com/cuda-downloads)。
-- 选择 CUDA Toolkit 12.2.1，然后依次点击 Windows -> x86_64 -> 11 -> exe(local)。
+- 选择 CUDA Toolkit 12.2.1，然后依次点击 `Windows` -> `x86_64` -> `11` -> `exe(local)`。
 - 点击 Download 按钮，等待下载完成。
 
 #### 2.2 安装 CUDA
@@ -46,4 +46,4 @@
 ### 5. 验证
 - 打开终端运行 python。
 - 输入 `import torch`，再次输入 `print(torch.cuda.is_available())`。
-- 如果输出 'True'，则代表安装成功了，恭喜！
+- 如果输出 `True`，则代表安装成功了，恭喜！
