@@ -15,11 +15,14 @@
 
 #### 2.1 下载 CUDA
 - 打开 CUDA 下载地址：[NVIDIA CUDA Downloads](https://developer.nvidia.com/cuda-downloads)。
+![cuda_tool](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/79c0b4fa-a71c-4368-9b78-b9236db8434f)
 - 选择 CUDA Toolkit 12.2.1，然后依次点击 `Windows` -> `x86_64` -> `11` -> `exe(local)`。
+![2](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/840bd49a-dda0-4d2c-a3d0-ea677c322d07)
 - 点击 Download 按钮，等待下载完成。
 
 #### 2.2 安装 CUDA
 - 打开安装包，选择 '精简'，安装所有组件，并安装最新版本显卡驱动覆盖当前的驱动。
+![3](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/f1a3a36e-c47d-49a3-847d-b151db250aad)
 - 注意：可能会出现短暂的黑屏。
 
 #### 2.3 验证安装
@@ -30,16 +33,19 @@
 #### 3.1 下载 cuDNN
 - 访问 cuDNN 官方地址：[NVIDIA cuDNN Downloads](https://developer.nvidia.com/rdp/cudnn-download)。
 - 下载对应的 CUDA 版本，例如 CUDA 版本是 12.2，请选择 12.x 版本。
+ ![4](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/251ebcd9-9f3b-4590-9069-6bc9ff02792c)
 - 解压下载的文件并重命名为 'cudnn'，将文件夹复制到 CUDA 的安装目录下。
 
 #### 3.2 配置环境变量
 - 打开 Path，添加以下两行：
   - `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\extras\CUPTI\lib64`
   - `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\cudnn\bin`
+  ![5](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/3e63f4fe-2a7f-40e9-9677-c6c0666f333a)
 
 ### 4. 安装 PyTorch
 - 打开 PyTorch 官网：[PyTorch](https://pytorch.org/get-started/locally/)。
 - 找到对应的版本号并选择 conda 或 pip。
+![6](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/b723e808-f744-4f5c-b20c-699988d16795)
 - 运行显示的命令，例如：`conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia`。
 - 请耐心等待安装完成。
 
@@ -47,3 +53,4 @@
 - 打开终端运行 python。
 - 输入 `import torch`，再次输入 `print(torch.cuda.is_available())`。
 - 如果输出 `True`，则代表安装成功了，恭喜！
+![7](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/6d531ca8-5b96-41cc-bece-ad43280419e6)
