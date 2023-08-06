@@ -53,7 +53,7 @@
 
 #### 4.2 直接下载whl文件安装
 如果因为网络问题导致官网安装失败，则可直接下载whl，地址为：[PyTorch Stable](https://download.pytorch.org/whl/torch_stable.html)。
-- 找到你本地环境对应的3个包：torch, torchvision, torchaudio。
+- 找到你本地环境对应的3个包：`torch`, `torchvision`, `torchaudio`。
 - 使用 ctrl+F，根据你的cuda版本号（比如我要找11.8版本），则输入：cu118,会快速跳到对应的下载地址，cpxx的数字代表你的python版本号，比如我的python是3.11，则选择名字带 cp311的链接。
   ![PyTorch .whl 文件](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/8546ae79-e8af-4190-a20b-d8937e091aac)
 - 3个文件下载完后，使用终端的pip命令安装：
@@ -61,7 +61,7 @@
   pip install torch-2.0.0+cu118-cp311-cp311-win_amd64.whl
   pip install cu118/torchaudio-2.0.2+cu118-cp311-cp311-win_amd64.whl
   pip install cu118/torchvision-0.15.2+cu118-cp311-cp311-win_amd64.whl
-
+  ```
 
 ### 5. 验证
 - 打开终端运行 python。
