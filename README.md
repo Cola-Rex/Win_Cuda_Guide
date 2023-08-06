@@ -21,7 +21,7 @@ As AI is currently one of the hottest topics in IT, you might want to try it on 
 - Click the Download button and wait for it to complete.
 
 #### 2.2 Install CUDA
-- Open the installer, choose 'Custom', install all components, and overwrite the current driver with the latest version.
+- Open the installer, choose 'Express', install all components, and overwrite the current driver with the latest version.
 - Note: A brief blackout might occur.
 
 #### 2.3 Verify Installation
