@@ -36,7 +36,7 @@ As AI is currently one of the hottest topics in IT, you might want to try it on 
 - Visit cuDNN's official page: [NVIDIA cuDNN Downloads](https://developer.nvidia.com/rdp/cudnn-download).
 - Download the corresponding CUDA version, e.g., if your CUDA version is 12.2, choose the 12.x version.
  ![4](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/251ebcd9-9f3b-4590-9069-6bc9ff02792c)
-- Unzip the downloaded file, rename the folder to 'cudnn', and copy it to the CUDA installation directory.
+- Unzip the downloaded file, rename the folder to `cudnn`, and copy it to the CUDA installation directory.
 
 #### 3.2 Configure Environment Variables
 - Open Path and add the following two lines:
