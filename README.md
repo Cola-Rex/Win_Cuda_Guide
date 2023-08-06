@@ -56,7 +56,7 @@ As AI is currently one of the hottest topics in IT, you might want to try it on 
 #### 4.2 Direct Installation via .whl Files
 If the official website installation fails due to network issues, you can directly download the .whl files from [PyTorch Stable](https://download.pytorch.org/whl/torch_stable.html).
 
-- Find the three packages corresponding to your local environment: torch, torchvision, torchaudio.
+- Find the three packages corresponding to your local environment: `torch`, `torchvision`, `torchaudio`.
 - Use `ctrl+F` and search for your CUDA version number (e.g., for version 11.8, enter `cu118`) to quickly jump to the corresponding download links. The numbers in `cpxx` represent your Python version, e.g., if your Python version is 3.11, choose the links containing `cp311`.
 ![PyTorch .whl Files](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/8546ae79-e8af-4190-a20b-d8937e091aac)
 - After downloading the three files, use the terminal's pip command to install:
@@ -64,7 +64,7 @@ If the official website installation fails due to network issues, you can direct
   pip install torch-2.0.0+cu118-cp311-cp311-win_amd64.whl
   pip install cu118/torchaudio-2.0.2+cu118-cp311-cp311-win_amd64.whl
   pip install cu118/torchvision-0.15.2+cu118-cp311-cp311-win_amd64.whl
-
+  ```
 
 ### 5. Verification
 - Open a terminal and run python.
