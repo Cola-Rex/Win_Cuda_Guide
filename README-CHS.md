@@ -1,5 +1,7 @@
 # Win_Cuda_Guide
 
+[English](README.md) | 简体中文
+
 现在 IT 最火的话题就是 AI 了，是否想在自己的电脑上尝试一下呢？AI 训练一定离不开 CUDA，所以第一步就是要先配置好本地环境，本项目将一步步带您配置好 Windows 的 CUDA。
 
 ## 步骤
