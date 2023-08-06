@@ -17,6 +17,7 @@ As AI is currently one of the hottest topics in IT, you might want to try it on 
 
 #### 2.1 Download CUDA
 - Visit the CUDA download page: [NVIDIA CUDA Downloads](https://developer.nvidia.com/cuda-downloads).
+- ![cuda_tool](https://github.com/Cola-Rex/Win_Cuda_Guide/assets/16102355/79c0b4fa-a71c-4368-9b78-b9236db8434f)
 - Select `CUDA Toolkit 12.2.1`, then click `Windows` -> `x86_64` -> `11` -> `exe(local)`.
 - Click the Download button and wait for it to complete.
 
