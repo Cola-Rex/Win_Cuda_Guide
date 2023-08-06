@@ -17,7 +17,7 @@ As AI is currently one of the hottest topics in IT, you might want to try it on 
 
 #### 2.1 Download CUDA
 - Visit the CUDA download page: [NVIDIA CUDA Downloads](https://developer.nvidia.com/cuda-downloads).
-- Select `CUDA Toolkit 12.2.1`, then click Windows -> x86_64 -> 11 -> exe(local).
+- Select `CUDA Toolkit 12.2.1`, then click `Windows` -> `x86_64` -> `11` -> `exe(local)`.
 - Click the Download button and wait for it to complete.
 
 #### 2.2 Install CUDA
@@ -48,4 +48,4 @@ As AI is currently one of the hottest topics in IT, you might want to try it on 
 ### 5. Verification
 - Open a terminal and run python.
 - Type `import torch`, then type `print(torch.cuda.is_available())`.
-- If it outputs 'True', the installation was successful. Congratulations!
+- If it outputs `True`, the installation was successful. Congratulations!
